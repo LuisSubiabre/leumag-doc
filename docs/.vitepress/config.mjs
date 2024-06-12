@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Leumag App",
   description: "Documentación",
-  base: 'https://github.com/LuisSubiabre/leumag-doc',
+  base: '/leumag-doc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
