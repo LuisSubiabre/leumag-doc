@@ -3,8 +3,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "deploy": "vitepress build && cd .vitepress/dist && git init && git add -A && git commit -m 'deploy' && git push -f git@github.com:LuisSubiabre/leumag-doc.git master:gh-pages"
-  },
+    "deploy": "vitepress build docs && cd docs/.vitepress/dist && git init && git add -A && git commit -m 'deploy' && git push -f git@github.com:LuisSubiabre/leumag-doc.git master:gh-pages"  },
   "devDependencies": {
     "vitepress": "^1.2.3"
   }
