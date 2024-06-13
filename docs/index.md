@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Inicio
-      link: /
+      link: /app
     - theme: alt
       text: Repositorios
       link: /

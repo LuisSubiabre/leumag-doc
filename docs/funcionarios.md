@@ -1,80 +1,15 @@
 # App Funcionarios
 
-Estado actual: En funcionamiento
+Esta aplicación está diseñada para integrar varios sistemas utilizando tecnologías nuevas. El objetivo es permitir que cada funcionario acceda a sus respectivas áreas y gestione su trabajo administrativo desde allí.
+Además, la aplicación busca optimizar los procesos internos, promoviendo un flujo de trabajo más eficiente y una mayor productividad.
 
-## Módulos
+- Estado: En producción y añadiendo funcionalidades.
+- Fecha de inicio: 2024
 
-### Profesores
-Módulo destinado a profesores jefes
-
-**Características**
-
-````funcionarios
-- Listado de curso
-- ACLES por alumno
-- Informe de personalidad
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+## Características
+>- Docente
+>- Inspectoria
+>- Ficha de estudiante
+>- ACLES
+>- Monitor de ACLES
+>- Administrador de sistema

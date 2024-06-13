@@ -6,7 +6,9 @@ export default defineConfig({
   description: "Documentación",
   base: '/leumag-doc/',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    footer: {
+      copyright: 'última actualización: 13-06-2024'
+    },
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Web Oficial', link: 'https://portal.liceoexperimental.cl' }
@@ -14,16 +16,22 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Listado',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Inicio', link: '/app' },
+          { text: 'Funcionarios', link: '/funcionarios' },
+          { text: 'Académico', link: '/academico' },
+          { text: 'Apoderados', link: '/apoderados' },
+          { text: 'Toor', link: '/toor' },
+          { text: 'Atrasos', link: '/atrasos' },
+          { text: 'Asistencia', link: '/asistencia' },
         ]
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: '#' }
-    ]
+    ],
+    
   }
 })
